@@ -1,0 +1,51 @@
+.admin-dashboard button {
+    background: #364c64 !important;
+    color: #FFFFFF !important;
+}
+
+ .sale-timer button {
+    background: #364c64 !important;
+    color: #FFFFFF !important;
+}
+
+.admin-dashboard .summary-conatainer {
+    background: #FFFFFF;
+    box-shadow: 0 2px 8px #f0f1f2;
+    padding: 32px 60px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.admin-dashboard .summary-conatainer p {
+    font-size: 17px;
+    opacity: .6;
+}
+
+.admin-dashboard .details-container .section > div {
+    background: #FFFFFF;
+    box-shadow: 0 2px 8px #f0f1f2;
+    padding: 32px 43px;
+    margin-bottom: 23px;
+    border-radius: 10px;
+}
+
+.admin-dashboard .details-container .section div h5 {
+    font-size: 17px;
+    text-align: left;
+    background: lightgray;
+    padding: 8px 15px;
+}
+
+.admin-dashboard .details-container .section .columns {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+    border-bottom: 2px solid rgb(196, 196, 196);
+}
+
+
+.admin-dashboard .details-container .section .columns span {
+    font-size: 14px;
+    font-weight: bold;
+}

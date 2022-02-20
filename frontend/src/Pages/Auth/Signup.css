@@ -1,0 +1,72 @@
+.signup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:
+    linear-gradient(
+        rgba(0, 0, 0, 0.6),
+        rgba(0, 0, 0, 0.6)
+    ),
+    url('https://locallylahore.com/wp-content/uploads/nawab-bazaar.jpg');
+    background-size: 100vw 100%;
+    background-attachment: fixed;
+}
+
+.signup .title {
+    font-size: 21px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 23px;
+}
+
+.signup > div {
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    padding: 60px;
+    margin: 60px 0px;
+    width: 41%;
+}
+
+.signup .ant-input {
+   padding: 8px 10px;
+   border-radius: 6px;
+   width: 100% !important;
+}
+
+.signup .ant-input-affix-wrapper {
+   padding: 8px 10px;
+   border-radius: 6px;
+   width: 100% !important;
+}
+
+.signup > div label {
+     display: block !important;
+     font-size: 16px;
+}
+
+.signup > div label::before {
+    content: none;
+    display: none !important;
+}
+
+.signup .ant-row  {
+    display: block !important;
+}
+
+.signup .btn {
+    background: #2a3e53;
+    height: 41px;
+    border-radius: 6px;
+    color: #FFFFFF;
+    font-weight: 500;
+}
+
+.signup .bottom-links p {
+    font-size: 17px;
+    opacity: .8;
+}
+
+.signup .bottom-links a {
+    color: #2a3e53;
+    font-weight: 700;
+}

@@ -1,0 +1,53 @@
+.sidebar {
+    position: sticky;
+    top: 0px;
+}
+.sidebar .ant-layout-sider {
+    background: #364c64;
+    width: 100% !important;
+}
+
+.sidebar .ant-menu.ant-menu-dark, .sidebar .ant-menu-dark .ant-menu-sub, .sidebar .ant-menu.ant-menu-dark .ant-menu-sub {
+    background: #364c64;
+}
+
+.sidebar .ant-menu-dark.ant-menu-dark:not(.ant-menu-horizontal) .ant-menu-item-selected {
+    background: #2a3e53;
+}
+.sidebar .ant-menu.ant-menu-dark .ant-menu-item-selected, .ant-menu-submenu-popup.ant-menu-dark .ant-menu-item-selected {
+    background: #2a3e53;
+}
+
+.sidebar .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 32px;
+    margin-bottom: 32px;
+}
+
+.sidebar .logo {
+    color: white !important;
+    text-decoration: none;
+    font-size: 19px;
+}
+
+.sidebar .sidebar-links {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.sidebar .sidebar-links a {
+   color: rgba(255, 255, 255, 0.65);
+   font-weight: 600;
+}
+
+.sidebar .sidebar-links a.active {
+   color: #FFFFFF;
+}
+
+.sidebar .sidebar-links i {
+   font-size: 15px;
+   margin-top: 2px;
+}

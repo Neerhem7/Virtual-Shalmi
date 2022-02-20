@@ -1,0 +1,136 @@
+.vendor-profile .inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.vendor-profile .inner .profile-data .items {
+    display: flex !important;
+    justify-content: space-between;
+    align-items: flex-start;
+    min-width: 400px;
+    margin-top: 23px;
+    text-align: left;
+}
+
+.profile-page .anticon {
+    padding-bottom: 10px;
+    font-size: 32px;
+   
+}
+
+.profile-page p {
+    font-size: 12px;
+    color: #797b81;
+}
+ 
+ .profile-2 .col-md-4:hover {
+    background: #e8e8e9;
+}
+
+
+.profile-sidebar-links {
+    color: #2a3e53;
+    font-weight: 700;
+}
+
+.profile-sidebar-links:hover {
+    color: #2a3e53;
+}
+
+
+.vendor-profile p {
+    color: #282C3F !important;
+    font-size: 16px;
+    text-align: justify;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.vendor-profile .profile-btn a {
+    text-transform: uppercase;
+    padding: 15px;
+    text-align: center;
+    font-weight: 800;
+    background-color: #FF3F6C;
+    color: white;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    width: 100%;
+}
+
+
+.vendor-profile .profile-btn a:hover {
+    color: white;
+}
+
+
+.vendor-edit-profile {
+    display: flex;
+    justify-content: center;
+}
+
+/* .vendor-edit-profile .inner {
+    width: 80%;
+} */
+
+.vendor-edit-profile .ant-checkbox-checked .ant-checkbox-inner {
+    background-color: #2a3e53 !important;
+    border-color: #2a3e53 !important;
+}
+.vendor-edit-profile .ant-checkbox-wrapper:hover .ant-checkbox-inner, .ant-checkbox:hover .ant-checkbox-inner, .ant-checkbox-input:focus + .ant-checkbox-inner {
+    border-color: #2a3e53 !important;
+}
+
+.vendor-edit-profile .shift-btn {
+    border: 1px solid gray;
+    padding: 4px;
+    border-radius: 45px;
+    width: 60px;
+    margin-right: 8px;
+    font-size: 12px;
+    cursor: context-menu;
+}
+
+
+.vendor-edit-profile .submit-btn-container {
+    padding: 8px;
+    /* border: 1px solid rgb(168, 168, 168); */
+    box-shadow: 0 -1px 4px 0 #0000004d;
+    width: 100%;
+}
+
+.vendor-edit-profile .submit-btn {
+    background-color: #364c64;
+    color: whitesmoke;
+    border: 1px solid #364c64;
+    width: 100%;
+    padding: 10px;
+}
+
+.vendor-edit-profile .form-control {
+    border: 1px solid #d4d5d9;
+    background: none !important;
+    width: 395px;
+    font-size: 14px;
+    padding: 12px;
+    font-weight: 300;
+    border-radius: 4px;
+    line-height: 14px;
+}
+
+
+.vendor-edit-profile .row {
+    margin-top: 0px !important;
+}
+
+
+.vendor-edit-profile .form-check-input:checked {
+    background-color:#2a3e53;
+    border-color: #2a3e53 !important;
+}
+.vendor-edit-profile .form-check-input:active {
+    background-color: #2a3e53;
+    border-color: #2a3e53 !important;
+}

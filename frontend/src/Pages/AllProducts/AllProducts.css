@@ -1,0 +1,113 @@
+.all-products {
+    overflow-x: hidden;
+}
+
+.all-products .main-row {
+    --bs-gutter-x: 0 !important;
+}
+.all-products .main {
+    border-bottom: 3px solid #ED3B3B;
+}
+.all-products .links {
+    border-bottom: 3px solid #ED3B3B;
+    font-weight: 600;
+}
+
+.all-products a:focus {
+    font-weight: 600;
+}
+
+.all-products button {
+    border: none;
+    background: rgb(243, 243, 243);
+    padding: 0px;
+}
+.all-products button:focus {
+    font-weight: 600;
+    box-shadow: none;
+}
+
+.all-products .links{
+    border-bottom: 3px solid #ED3B3B;
+    font-weight: 600;
+}
+
+.all-products .desc {
+    font: normal normal bold 22px/30px 'Red Hat Display', sans-serif;
+    letter-spacing: 0px;
+    color: #100F1D;
+    opacity: 1;
+}
+
+.all-products .card-img {
+    background: #ED3B3B 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    opacity: 0.09;
+    height: 100%;
+}
+
+
+.all-products .sizes button {
+    background: transparent;
+    font-weight: bold;
+    border-radius: 3px;
+}
+.all-products .sizes button:focus {
+    background: #100F1D;
+    /* opacity: 0.2; */
+}
+
+.all-products .sizes button:focus span {
+    color: wheat;
+}
+
+.all-products .row>* {
+    padding-left: 0px;
+}
+
+.all-products .menuItem {
+    padding-top: 10px;
+}
+
+.all-products .main-row .col-md-2 {
+    background: rgb(243, 243, 243);
+    padding: 23px 0px;
+}
+
+#settingsMenu{
+    display: none;
+}
+
+#menuContainer {
+    cursor: pointer;
+}
+
+.all-products .sidebar button:hover, .all-products .sidebar .menuItem:hover {
+   font-weight: 600;
+   color: #000;
+}
+
+#menuContainer div:hover + #settingsMenu,#settingsMenu:hover{
+    display: block;
+    position: absolute;
+    top: 200px;
+    left: 16%;;
+    z-index: 100;
+    background-color: rgb(243, 243, 243);
+    padding: 19px;
+    padding-left: 28px;
+    height: 400px;
+    word-break: break-all !important;
+    min-width: 32px;
+    max-width: 32% !important;
+    box-shadow: 10px 10px 10px rgb(197 200 213 / 76%);
+} 
+
+.all-products .sidebar button:focus {
+    font-weight: 600;
+    border-bottom: none;
+    box-shadow: none !important;
+    line-height: 17px;
+    font-size: 14px;
+    color: #333333;
+}

@@ -1,0 +1,670 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden !important;
+}
+
+body button {
+    background-color: #2a3e53;
+}
+
+html a {
+    color: rgb(94, 88, 88);
+}
+
+html a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+.layouts.row>* {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+/********************************************** Navbar **************************************/
+.main-nav nav {
+    box-shadow: 0 4px 12px 0 rgba(0,0,0,.05);
+}
+.nav {
+    text-transform: capitalize;
+}
+.navbar-brand {
+    font-size: 40px;
+}
+.nav-item {
+    cursor: pointer;
+    margin-left: 12px;
+    font-weight: bolder;
+    color: black !important;
+}
+
+.navMenu .ant-menu-vertical .ant-menu-item {
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+}
+
+.navMenu .ant-menu-item.ant-menu-item-only-child {
+    padding-bottom: 28px !important;
+}
+
+.navMenu .ant-menu-item a:hover {
+  color: black !important;
+  font-weight: 600;
+}
+
+.navMenu .ant-menu-item .login-btn:hover {
+       color: #2a3e53 !important;
+       font-weight: 600;
+       border-color: #2a3e53 !important;
+}
+
+
+.nav-link:hover {
+    border-bottom: .3rem solid #2a3e53;
+}
+
+.profile {
+    cursor: text;
+}
+
+.main-nav .child:hover {
+    font-weight: 700;
+}
+
+
+/********************************************Admin Panel **************************************/
+.form {
+    display: flex;
+    justify-content: center;
+    }
+  
+
+.admin-links {
+    margin-bottom: 20px;
+}
+
+.admin-panel {
+    height: 100vh;
+}
+
+.admin-link-div {
+    background-color: rgb(243, 237, 237);
+    box-shadow: 0 4px 20px 0 rgba(0,0,0,.05);
+    padding-top: 20px;
+}
+
+.admin-body {
+    padding-top: 100px;
+}
+
+.admin-panel a {
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+.admin-sidebar {
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.admin-sidebar:hover {
+    background-color: wheat;
+}
+
+#components-layout-demo-fixed-sider .logo {
+    height: 32px;
+    background: rgba(255, 255, 255, 0.2);
+    margin: 16px;
+  }
+  .site-layout .site-layout-background {
+    background: #fff;
+  }
+
+  aside.ant-layout-sider {
+      width: 260px !important;
+      max-width: 260px !important;
+  }
+  
+ .nav-row:nth-last-child() {
+     margin-right: 100px;
+
+ }
+
+ body .table-container {
+    background: #FFFFFF;
+    box-shadow: 10px 10px 30px rgba(197, 200, 213, 0.76);
+    border-radius: 20px;
+    padding: 32px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+ 
+ body .table-container table thead {
+    background: rgb(245, 245, 245);
+    padding: 10px;
+ }
+
+ body .table-container table tbody tr {
+    border-bottom: none !important;
+ }
+
+
+
+ .subCat-table {
+     border: 1px solid black;
+     margin-bottom: 0;
+ }
+
+
+  .rc-virtual-list-scrollbar-thumb{
+     display: none !important;
+     width: 0px !important;
+ }
+
+ /*********************************** Create Products ******************************************/
+
+
+ div.ant-select-tree-list-holder {
+     max-height: 256px !important;
+     overflow-y: auto !important;
+     overflow-anchor: none !important;
+     
+}
+
+div.ant-select-tree-list-scrollbar {
+    display: none !important;
+}
+
+div.rc-virtual-list-scrollbar {
+    display: none;
+}
+
+div.rc-virtual-list-holder {
+    max-height: 256px !important;
+    overflow-y: auto !important;
+    overflow-anchor: none !important;
+}
+
+.edit-form {
+    background-color: white !important;
+}
+
+.edit-form .form-control {
+    width: 70%;
+    height: 45px;
+    border: 1px solid black;
+    margin-bottom: 16px;
+}
+.edit-form .form-control:focus {
+    box-shadow: none;
+}
+
+.edit-form .files {
+    border: 1px solid black;
+}
+
+.edit-form .ant-select-selector {
+    margin-left: 0 !important;
+    
+}
+
+
+.product-btn > .ant-btn-lg {
+    width: 221px;
+    height: 54px !important;
+    background: #2a3e53 !important;
+    color: white !important;
+}
+
+.product-btn-wishlist {
+    width: 180px;
+    height: 56px !important;
+    /* background: lightgray !important; */
+    color: black !important;
+    margin-bottom: 20px;
+
+}
+
+.delivery .ant-input-lg {
+    width: 240px !important;
+}
+.delivery p {
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.cart .row {
+    --bs-gutter-x: 0rem;
+}
+
+.cart {
+    background:
+    linear-gradient(
+        rgba(0, 0, 0, 0.6),
+        rgba(0, 0, 0, 0.6)
+    ),
+    url('https://locallylahore.com/wp-content/uploads/nawab-bazaar.jpg');
+    background-size: 100vw 100%;
+    background-attachment: fixed;
+    min-height: 100vh !important;
+    padding-top: 19px;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+
+.cart > div {
+    background: #FFFFFF;
+    padding: 23px;
+    border-radius: 6px;
+    margin: 15px auto;
+    width: 80%;
+    min-height: 60vh;
+}
+
+  .ant-form-item-required {
+      margin-right: 40px;
+  }
+
+  .ant-spin {
+      color: #2a3e53 !important;
+  }
+
+  /* .login .ant-form-item-label > label {
+      padding-right: 100px !important;
+  } */
+
+ 
+.ant-upload-list-item-error .ant-upload-list-item-name {
+    color: black !important;
+}
+
+
+
+/******************************************** Cart Layout **************************************/
+.admin-layout .navbar {
+    padding-left: 62px;
+    border-bottom: 1px solid #F5F5F6;
+}
+
+.admin-layout .admin-tag {
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+}
+
+
+
+/******************************************** Cart Layout **************************************/
+.cart-layout .navbar {
+    padding-left: 62px;
+    border-bottom: 1px solid #F5F5F6;
+}
+.cart-layout .checkout-steps li.active {
+    color: #20BD99;
+    border-bottom: 2px solid #20BD99;
+    padding-top: 2px;
+
+}
+
+.cart-layout .checkout-steps .checkout-border {
+    padding-left: 45px;
+    display: inline-block;
+    border-top: 1px dashed #696B79;
+    height: 4px;
+    width: 10%;
+    margin-top: 10px !important;
+}
+
+
+/******************************************** Address Page **************************************/
+.floating-label-group {
+	position: relative;
+	margin-top: 15px;
+	margin-bottom: 25px;
+  
+}
+	.floating-label {
+		font-size: 13px;
+		color: #cccccc;
+		position: absolute;
+		pointer-events: none;
+		top: 9px;
+		left: 12px;
+		transition: all 0.1s ease;
+        /* background: white; */
+	}
+
+	input:focus ~ .floating-label,
+	input:not(:focus):valid ~ .floating-label {
+		top: -8px;
+		bottom: 0px;
+		left: 10px;
+		font-size: 11px;
+		opacity: 1;
+		color: #404040;
+        background: white;
+        height: 10px;
+	}
+
+
+
+
+/******************************************** Payment Page **************************************/
+.payment .ant-tabs > .ant-tabs-nav {
+     background: #eaeaec !important;
+}
+
+.payment .ant-tabs-tab {
+    font-weight: 700;
+    color: #424553;
+    margin-top: 0px !important;
+}
+
+
+.payment .anticon  {
+    font-size: 28px;
+}
+
+.payment .ant-tabs-tab {
+    border-bottom: 1px solid #dddde6;
+    border-right: 1px solid #eaeaec;
+    border-left: 1px solid #f4f4f5;
+    border-top: 0;
+    height: 60px;
+    align-items: center;
+    display: flex;
+}
+
+.payment .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+    color: #2a3e53;
+    text-shadow: 0 0 0.25px currentColor;
+}
+
+.payment  .ant-tabs-tab-active {
+    border-left: 5px solid #2a3e53;
+    background: #fff !important;
+}
+
+.payment .ant-tabs-tab:hover {
+    color: #424543;
+
+}
+
+.payment .ant-tabs-ink-bar {
+   display: none;
+}
+
+.payment {
+    color: #424553;
+}
+
+.payment ul li {
+    padding-bottom: 10px;
+}
+
+.payment ::marker {
+    color: #d0d1d8;
+}
+
+
+
+
+
+
+/************************************************** Product Page ************************************************/
+.ant-comment-actions > li > span svg {
+    font-size: 19px !important;
+}
+
+.single-comments .ant-btn {
+      color: #2a3e53 !important;
+      border-color: #2a3e53;
+}
+
+.single-comments .ant-btn:hover {
+    color: #2a3e53 !important;
+    border-color: #2a3e53;
+}
+
+.single-comments .anticon .anticon-star svg {
+    width: 2em !important;
+}
+
+.ant-image {
+    position: relative;
+    display: block !important;
+}
+
+
+
+
+/************************************************** Products Page ************************************************/
+.products-page .ant-carousel .slick-dots li button {
+    display: block;
+    width: 6px !important;
+    height: 6px !important;
+    border-radius: 60px !important;
+    background: #90919c !important;
+}
+
+.products-page .ant-carousel .slick-dots li.slick-active button {
+    background: #2a3e53 !important;
+}
+
+ .ant-carousel .slick-dots {
+    top: 102%;
+}
+
+
+.products-page .ant-checkbox-checked .ant-checkbox-inner {
+    background: #2a3e53 !important;
+    border-color: #2a3e53 !important;
+}
+
+
+
+
+/************************************************** Profile Page ************************************************/
+
+
+
+.edit-profile input {
+    width: 100% !important;
+}
+
+.edit-profile .change {
+    border: 1px solid #d4d5d9;
+    padding: 12px 32px;
+    color: #282C3F;
+    font-weight: 600;
+    font-family: Whitney-SemiBold, Whitney;
+}
+
+.edit-profile .mob-no {
+    font-size: 12px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: rgba(39, 43, 65, 0.7);
+}
+
+
+.password-modal .submit-btn {
+    background-color: #2a3e53;
+    color: whitesmoke;
+    border: 1px solid #2a3e53;
+    padding: 8px;
+    margin: 0;
+}
+
+
+.password-modal .floating-label-group {
+	position: relative;
+	margin-top: 15px;
+	margin-bottom: 25px;
+  
+}
+	.password-modal.floating-label {
+		font-size: 13px;
+		color: #cccccc;
+		position: absolute;
+		pointer-events: none;
+		top: 9px;
+		left: 12px;
+		transition: all 0.1s ease;
+	}
+  
+   .password-modal .floating-label-group {
+        position: relative;
+        margin-top: 15px;
+        margin-bottom: 25px;
+      
+    }
+       .password-modal .floating-label {
+            font-size: 13px;
+            color: #cccccc;
+            position: absolute;
+            pointer-events: none;
+            top: 9px;
+            left: 12px;
+            transition: all 0.1s ease;
+        }
+
+        .password-modal .ant-input-affix-wrapper-focused ~ .floating-label,
+    .ant-input-affix-wrapper:not(.ant-input-affix-wrapper-disabled) ~ .floating-label {
+		top: -8px;
+		bottom: 19px;
+		left: 10px;
+		font-size: 11px;
+		opacity: 1;
+		color: #404040;
+        overflow: hidden;
+	}
+
+	.password-modal .ant-input-affix-wrapper-focused ~ .floating-label,
+    .ant-input-affix-wrapper.ant-input-affix-wrapper-disabled ~ .floating-label {
+		top: -8px;
+		bottom: 19px;
+		left: 10px;
+		font-size: 11px;
+		opacity: 1;
+		color: #404040;
+        overflow: hidden;
+	}
+
+    
+
+   .password-modal .ant-input-affix-wrapper:hover {
+       border: 1px solid #d4d5d9 !important;
+   }
+
+   .password-modal .ant-input-affix-wrapper:focus {
+    border: 1px solid #d4d5d9;
+    /* box-shadow: 0 0 0 0 !important; */
+   }
+
+   .ant-input-affix-wrapper:focus, .ant-input-affix-wrapper-focused {
+    box-shadow: none !important;
+}
+
+
+.profile-2 .logout-btn {
+    width: 280px !important;
+    text-transform: uppercase;
+    padding: 15px;
+    text-align: center;
+    font-weight: 800;
+    background-color: #2a3e53;
+    border: 1px solid #d4d5d9;
+    color: white;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+
+.active-side {
+    color: white;
+}
+
+
+.orders .table>:not(caption)>*>* {
+    border-bottom-width: 0px;
+}
+
+.orders .table tr {
+    border: 1px solid rgb(212, 213, 217);
+    box-shadow: 2px 2px 10px 10px rgb(0 0 0 / 5%);
+    margin-top: 100px;
+}
+
+.orders  table {
+    border-collapse: separate;
+    background: white;
+    border-spacing: 0 15px;
+  }
+
+  .orders .table:nth-child(1) {
+      margin-top: 0px !important;
+  }
+
+ .orders .table>tbody {
+      vertical-align: middle;
+}
+
+.orders tr.bg-secondary  {
+    background-color: #2a3e53 !important;
+}
+
+.tracking .ant-steps-icon {
+        font-size: 32px !important;
+}
+
+.tracking .ant-steps-item-title {
+        font-size: 19px !important;
+        font-weight: 600;
+}
+
+.tracking .ant-steps-item-finish > .ant-steps-item-container > .ant-steps-item-content > .ant-steps-item-title {
+    color: #2a3e53;
+}
+
+
+.tracking .ant-steps-item-finish .ant-steps-item-icon > .ant-steps-icon {
+    color: #2a3e53 !important;
+}
+
+
+.tracking .ant-steps-item-finish > .ant-steps-item-container > .ant-steps-item-tail::after {
+    background-color: #2a3e53;
+}
+
+
+
+/**************************************** Authentication *****************************************************************/
+    .new-password .ant-form-item-control-input {
+        width: 300px;
+    }
+   .new-password .ant-input-affix-wrapper:not(.ant-input-affix-wrapper-disabled):hover {
+        border: 2px solid #f5f5f6 !important;
+        z-index: 1;
+        padding: 8px;
+    }
+     
+    .new-password .ant-input-affix-wrapper-focused {
+        border: 2px solid #f5f5f6 !important;
+    }
+
+    .header-avatar .ant-comment-avatar img {
+        width: 64px;
+        height: 64px;
+    }
+
+
+    .paypal-should-focus .paypal-button:focus, .paypal-should-focus .paypal-button-card:focus {
+        outline: none !important;
+        outline: auto 0px -webkit-focus-ring-color !important;
+        outline-offset: -3px;
+    }
+   

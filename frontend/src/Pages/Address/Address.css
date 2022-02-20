@@ -1,0 +1,92 @@
+.address {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:
+    linear-gradient(
+        rgba(0, 0, 0, 0.6),
+        rgba(0, 0, 0, 0.6)
+    ),
+    url('https://locallylahore.com/wp-content/uploads/nawab-bazaar.jpg');
+    background-size: 100vw 100%;
+    background-attachment: fixed;
+}
+
+.address > div {
+    background: #FFFFFF;
+    padding: 32px;
+    margin-top: 43px;
+    margin-bottom: 43px;
+    border-radius: 6px;
+}
+
+.address .ant-checkbox-checked .ant-checkbox-inner {
+    background-color: #2a3e53 !important;
+    border-color: #2a3e53 !important;
+}
+.address .ant-checkbox-wrapper:hover .ant-checkbox-inner, .ant-checkbox:hover .ant-checkbox-inner, .ant-checkbox-input:focus + .ant-checkbox-inner {
+    border-color: #2a3e53 !important;
+}
+
+.address .shift-btn {
+    border: 1px solid gray;
+    padding: 4px;
+    border-radius: 45px;
+    width: 60px;
+    margin-right: 8px;
+    font-size: 12px;
+    cursor: context-menu;
+}
+.address .shift-btn:active {
+    border-color: #2a3e53;
+}
+
+.address .home-btn {
+    border-color: #2a3e53;
+    color: #2a3e53;
+}
+.address .work-btn {
+    border-color: #2a3e53;
+    color: #2a3e53;
+}
+
+.address .submit-btn-container {
+    padding: 8px;
+    /* border: 1px solid rgb(168, 168, 168); */
+    box-shadow: 0 -1px 4px 0 #0000004d;
+    width: 100%;
+}
+
+.address .submit-btn {
+    background-color: #364c64;
+    color: whitesmoke;
+    border: 1px solid #364c64;
+    width: 100%;
+    padding: 10px;
+}
+
+.address .form-control {
+    border: 1px solid #d4d5d9;
+    background: none !important;
+    width: 395px;
+    font-size: 14px;
+    padding: 12px;
+    font-weight: 300;
+    border-radius: 4px;
+    line-height: 14px;
+}
+
+
+.address .row {
+    margin-top: 0px !important;
+}
+
+
+.address .form-check-input:checked {
+    background-color:#2a3e53;
+    border-color: #2a3e53 !important;
+}
+.address .form-check-input:active {
+    background-color: #2a3e53;
+    border-color: #2a3e53 !important;
+}

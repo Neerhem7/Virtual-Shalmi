@@ -1,0 +1,11 @@
+.products .ql-container.ql-snow  {
+    height: 200px !important;
+}
+
+.vendor-products .para {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
